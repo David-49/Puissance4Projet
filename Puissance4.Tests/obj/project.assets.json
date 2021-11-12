@@ -1,0 +1,123 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "NUnit >= 3.13.1",
+      "NUnit3TestAdapter >= 3.17.0",
+      "coverlet.collector >= 3.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dd08b\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\dev no save\\CSharp\\ProjetPuissance4\\Puissance4.Tests\\Puissance4.Tests.csproj",
+      "projectName": "Puissance4.Tests",
+      "projectPath": "D:\\dev no save\\CSharp\\ProjetPuissance4\\Puissance4.Tests\\Puissance4.Tests.csproj",
+      "packagesPath": "C:\\Users\\dd08b\\.nuget\\packages\\",
+      "outputPath": "D:\\dev no save\\CSharp\\ProjetPuissance4\\Puissance4.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dd08b\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[16.9.4, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.13.1, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[3.17.0, )"
+          },
+          "coverlet.collector": {
+            "target": "Package",
+            "version": "[3.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Impossible de résoudre 'Microsoft.NET.Test.Sdk (>= 16.9.4)' pour 'net5.0'.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Impossible de résoudre 'NUnit (>= 3.13.1)' pour 'net5.0'.",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Impossible de résoudre 'NUnit3TestAdapter (>= 3.17.0)' pour 'net5.0'.",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Impossible de résoudre 'coverlet.collector (>= 3.0.2)' pour 'net5.0'.",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

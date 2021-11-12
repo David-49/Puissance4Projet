@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q7a1HVcvxfjl0b5W/Wyc1p/gcReyIG2ORf5keGfH6hDzqRaiIFjGGprW8fYHmAiHRZiDPTv6Wzndg0YcsVi5Ow==",
+  "success": false,
+  "projectFilePath": "D:\\dev no save\\CSharp\\ProjetPuissance4\\Puissance4.Tests\\Puissance4.Tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Impossible de résoudre 'Microsoft.NET.Test.Sdk (>= 16.9.4)' pour 'net5.0'.",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Impossible de résoudre 'NUnit (>= 3.13.1)' pour 'net5.0'.",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Impossible de résoudre 'NUnit3TestAdapter (>= 3.17.0)' pour 'net5.0'.",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Impossible de résoudre 'coverlet.collector (>= 3.0.2)' pour 'net5.0'.",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
