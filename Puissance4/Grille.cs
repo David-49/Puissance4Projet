@@ -8,7 +8,7 @@ namespace Puissance4
         public static int VIDE = 0;
         public static int Joueur1 = 1;
         public static int Joueur2 = 2;
-        private static int[,] _grille = new int[7, 7];
+        private static int[,] _grille;
         private int _taille{ get; set; }
 
         public Grille()
